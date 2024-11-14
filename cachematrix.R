@@ -4,7 +4,7 @@
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
-inver <- NULL
+  inver <- NULL
   set <- function(t) {
     x <<- t
     inver <<- NULL
